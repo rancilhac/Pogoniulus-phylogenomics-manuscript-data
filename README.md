@@ -11,7 +11,7 @@ Files are organized as follow:
    * SUPER_\*_all_500S_maxmiss60_NJ_ASTRAL.trees: the trees, filtered to use as input for ASTRAL.
    * SUPER_\*_all_500S_maxmiss60_NJ_TWISST.trees: the trees, filtered to use as input for TWISST.
      
-Each of these files is provided for four sample subsets: all samples (SUPER_\*_all), core range samples (SUPER_\*_allopatric), contact zones samples (SUPER_\*_sympatric) and control samples (SUPER_\*_control).
+Each of these files is provided for four sample subsets: all samples (SUPER_\*all), core range samples (SUPER_\*allopatric), contact zones samples (SUPER_\*sympatric) and control samples (SUPER_\*control).
 
 5. TWISST_weights: A directory including topology weights for each chromosome, as output by TWISST. Again, four files are provided for each chromosome, corresponding to the four samples subsets.
 6. HZAR_single_SNPs_South_Africa and HZAR_single_SNPs_Uganda-Kenya: Two directories containing the results of single SNP HZAR cline analyses in the two contact zones. The analysis was run on batches of 50 SNPs, and the results are given in the files "Estimates_hzar_\*.txt, which are tables where each line is a SNP and the columns are the estimated cline parameters. These directories also contain the HZAR input files (Allele_frequencies\*HZAR.csv) generated with Stacks populations, and the coordinates of the SNPs in plink format (SNPs\*.plink.map).
